@@ -1,0 +1,30 @@
+{
+  "name": "node-duphlux",
+  "version": "1.0.0",
+  "description": "A small NodeJS  wrapper library for the telephone verification service Duphlux. ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duphlux/node-duphlux.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "Duphlux"
+  ],
+  "author": "Kolawole Abobade <kolawole.abobade@gmail.com> (github.com/omoabobade)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duphlux/node-duphlux/issues"
+  },
+  "homepage": "https://github.com/Duphlux/node-duphlux#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.0.2",
+    "rand-token": "^0.3.0",
+    "require": "^2.4.20"
+  }
+}

@@ -12,14 +12,14 @@ A small NodeJS  wrapper library for the telephone verification service Duphlux.
 
 ## To Verify Number
         duphlux.verifyNumber(UserNumber, Unique Reference Number, Site Redirect URL).then(
-        function(payLoad){
-            console.log(payLoad);
-        }, 
-        function(e){
-            console.log(e)
-        }
-    );
-    Method verfyNumber Returns a promise with resolve and reject implemented. For a succesful interaction with Duphlux server, the Payload returns something similar to : 
+            function(payLoad){
+                console.log(payLoad);
+            }, 
+            function(e){
+                console.log(e)
+            }
+        );
+Method verfyNumber Returns a promise with resolve and reject implemented. For a succesful interaction with Duphlux server, the Payload returns something similar to : 
         {   
             status: true,
             data: 
@@ -35,9 +35,10 @@ You can also generate a unique reference number by making use of the
         duphlux.generateRef();
 
 ##To Check Previous Authentication Request Status
+
     duphlux.checkStatus(Unique Reference Number)
 
-    This also returns a Promise
+This also returns a Promise
 
 For further Documentation kindly goto Duphlux
 

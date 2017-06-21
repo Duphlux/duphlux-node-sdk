@@ -19,7 +19,8 @@ A small NodeJS  wrapper library for the telephone verification service Duphlux.
                 console.log(e)
             }
         );
-Method verfyNumber Returns a promise with resolve and reject implemented. For a succesful interaction with Duphlux server, the Payload returns something similar to : 
+Method verfyNumber Returns a promise with resolve and reject implemented. For a succesful interaction with Duphlux server, the Payload returns something similar to
+
         {   
             status: true,
             data: 
@@ -28,13 +29,13 @@ Method verfyNumber Returns a promise with resolve and reject implemented. For a 
                 transaction_reference: 'iUuqvqyT2e1C4ogl',
                 verification_reference: 'b30e29d3a8a201a62180a8bd2d06d23b0533e467',
                 verification_url: 'https://duphlux.com/verify/b30e29d3a8a201a62180a8bd2d06d23b0533e467' 
-                } 
+            }
         } 
 
 You can also generate a unique reference number by making use of the 
         duphlux.generateRef();
 
-##To Check Previous Authentication Request Status
+## To Check Previous Authentication Request Status
 
     duphlux.checkStatus(Unique Reference Number)
 

@@ -50,5 +50,5 @@ In progress...
 
 ## Release History
 
-* 0.1.0 Initial releas
+* 1.0.0 Initial release
 
